@@ -41,3 +41,18 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+ const colorPicker = document.getElementById('bgColorPicker');
+        const colorHexText = document.getElementById('colorHex');
+
+        // 'input' event triggers instantly as the user drags the mouse in the picker
+        // 'change' event triggers only when the picker is closed
+        colorPicker.addEventListener('input', (event) => {
+            const newColor = event.target.value;
+            
+            // Apply the color to the body
+            document.body.style.backgroundColor = newColor;
+            
+            // Update the text label
+            colorHexText.textContent = newColor;
+        });

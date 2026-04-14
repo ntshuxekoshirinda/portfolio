@@ -84,9 +84,25 @@ body {
     font-weight: 400;
     color: var(--white-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background-color: #3d474c;
     overflow-x: hidden;
 }
+
+.controls {
+            background: rgba(3, 3, 3, 0.8);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+} 
+
+ input[type="color"] {
+            width: 100px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+        }
 
 .row {
     max-width: var(--container-max-width);
