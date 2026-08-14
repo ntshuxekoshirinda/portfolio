@@ -22,28 +22,8 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-                <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                       
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#about">About Me</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link " href="#work">Portfolio</a>
-                        </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/ntshuxekoshirinda">GitHub</a>
-                    </li>
-                    
-                  </ul>
-                </div>
-                </div>
-            </nav>
+          
+            
 
         </header>
 
@@ -100,7 +80,7 @@
       I am a software engineer focused on designing type-safe web applications, responsive cross-platform mobile tools, and robust backend micro-utilities.
     </p>
     <p>
-      My journey in tech is built on a formal foundation: I graduated with a <strong class="font-semibold text-slate-900 dark:text-white">Diploma in Information Technology from UNISA (2025)</strong>, specializing in systems analysis, software design patterns, and relational database architectures.
+      My journey in tech is built on a formal foundation: I graduated with a <strong class="font-semibold text-slate-900 dark:text-white">Diploma in Information Technology from UNISA </strong>, specializing in systems analysis, software design patterns, and relational database architectures.
     </p>
     <p>
       Rather than relying purely on theory, I build by shipping real projects. My engineering approach centers around <strong class="font-semibold text-slate-900 dark:text-white">TypeScript, Node.js/NestJS, React/React Native, and PostgreSQL</strong>. Whether engineering a monorepo blog platform with Prisma ORM, building an offline-first mobile app using Expo-SQLite, or writing strict Test-Driven Development (TDD) unit tests in Jest, I focus on predictability, clean code separation, and high performance.
@@ -159,7 +139,7 @@
           </tr>
           <tr class="hover:bg-slate-50/50 dark:hover:bg-slate-900/50 transition-colors">
             <td class="py-3 font-semibold text-slate-900 dark:text-white">Education</td>
-            <td class="py-3 text-slate-600 dark:text-slate-300">Diploma in Information Technology (UNISA, 2025)</td>
+            <td class="py-3 text-slate-600 dark:text-slate-300">Diploma in Information Technology (UNISA)</td>
           </tr>
           <tr class="hover:bg-slate-50/50 dark:hover:bg-slate-900/50 transition-colors">
             <td class="py-3 font-semibold text-slate-900 dark:text-white">Primary Languages</td>
@@ -222,29 +202,67 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Battleship</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                A state-machine evaluation algorithm for an AI opponent, allowing the bot to prioritize high-probability
+                tiles using a randomized targeting heuristic.
               </p>
+              <p>
+                Achieved 100% unit test coverage using Jest, following TDD principles.
+              </p> 
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Jest</li>
+                <li>Webpack.js</li>
+                <li>Vanilla JavaScript</li>
+                
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="https://ntsbattleship.netlify.app/" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/ntshuxekoshirinda/battleship">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 2" />
+              <img src="./images/battleship.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Memory Card</h3>
+              <p>
+                 a memory-testing game utilizing the PokeAPI to dynamically fetch character data for dynamic UI
+                 rendering.
+              </p>
+              <p>
+                 Implemented complex state management (React useState/useEffect) to track unique character selections and reset
+                 logic.
+              </p> 
+              <ul class="work__list">
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>Vite</li>
+                <li>CSS</li>
+                <li>REST API (PokeAPI)</li>
+                <li>Google Fonts</li>
+                
+              </ul>
+
+              <div class="work__links">
+                <a href="https://memory-card-8j7.pages.dev/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ntshuxekoshirinda/memory-card">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/memory.png" class="work__image" alt="Project 2" />
             </div>
           </div>
 
@@ -273,6 +291,8 @@
           </div>
         </div>
       </div>
+
+
     </section>
  
   </main>
